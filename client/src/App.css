@@ -1,0 +1,211 @@
+.App {
+  /* text-align: center; */
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+#nft_token_name, #nft_name, #app_name, #empty_container, .wallet_button, .organization_div, .update_button, .save_button {
+  font-family: 'Alata', sans-serif;
+  font-weight: 600;
+}
+
+#empty_container {
+  font-size: 28px;
+  margin: auto;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wallet_button, .save_button {
+  font-size: 24px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  display: "flex-end";
+  justifyContent: "flex-end";
+}
+
+#twitter_button {
+  margin-top: 60px;
+  color: white;
+  background-color: #1DA1F2;
+}
+
+#discord_button {
+  margin-top: 15px;
+  color: white;
+  background-color: #7289d9;
+}
+
+#disconnected {
+  background-color: #004d40;
+  color: #B2DFDB;
+}
+
+#connected {
+  background-color: #B2DFDB;
+  color: #004d40;
+}
+
+#preview_image, #preview_video {
+  width: 240px;
+  height: 240px;
+  object-fit: contain;
+}
+
+#drawer_image, #drawer_video {
+  width: 360px;
+  height: 360px;
+  object-fit: contain;
+}
+
+#nft_token_name, #nft_name {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#app_name {
+  font-size: 30px;
+}
+
+#toolbar {
+  background-color: #009688;
+  /* background-color: #08FF08; */
+}
+
+#nft_token_name {
+  /* color: grey; */
+}
+
+#nft_name {
+  /* color: black; */
+  margin-top: 4px;
+}
+
+#content {
+  margin-top: 140px;
+  margin-bottom: 120px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#loader {
+  height: 700px;
+}
+
+.organization_div {
+  font-size: 20px;
+  color:white;
+}
+
+#twitter_icon {
+  width:32px;
+  height:32px;
+  margin-right:32px;
+  color:white;
+}
+
+.icon_a {
+  display:inline-block;
+  padding-bottom: 0px;
+  line-height: .8em;
+}
+
+/* .update_button {
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #B2DFDB;
+  color: #004d40;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} */
+
+
+
+footer {
+  background-color: #009688;
+  /* height: '80px';
+  width: '100%';
+  position: 'fixed';
+  bottom: '0'; */
+}
+
+#stack_footer {
+  /* justify-content:"right"; */
+
+}
+
+/* .card {
+  width: "240px";
+  height: "auto";
+  box-shadow: "0";
+  border-radius: "3";
+  border: "solid";
+  border-color: "#E0E0E0";
+}
+
+sx={{
+  width: "240px",
+  height: "auto",
+  boxShadow: 0,
+  borderRadius: 3,
+  border: "solid",
+  borderColor: "#E0E0E0",
+}} */
+
+
+/*  */
+
+
+/* style={{ height: "80px", width: "100%", position: "fixed", bottom: "0" }} */
+
+
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
